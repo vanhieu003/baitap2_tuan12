@@ -23,12 +23,16 @@ body{
     color: white;
     padding: 20px;
     text-align: center;
-   background: ;
   }
   .navbar {
-    overflow: hidden;
-    background-color: #333;
-  }
+    height: 50px;
+    width: 100%;
+    background: dimgrey;
+    display: flex;
+    /* justify-content: space-between; */
+    /* line-height: 50px; */
+     position: fixed; 
+}
   .navbar a {
     float: left;
     display: block;
@@ -46,9 +50,10 @@ body{
     color: black;
   }
   .main{
-    padding: 20px;
+   padding: 10px;
    display: flex;
    text-align: center;
+   margin-top: 107px;
   }
 .content{
     background-color: dimgrey;
@@ -66,6 +71,7 @@ body{
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  margin-top: 50px;
 }
 
 .sidebar{
@@ -75,7 +81,7 @@ body{
     margin: 20px;
 }
 .sidebar img{
-    position: absolute;
+  position: absolute;
   top: 50%;
   width: 300px;
   height: 400px;
@@ -83,6 +89,7 @@ body{
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  margin-top: 50px;
 }
 .nav{
     background-color: dimgrey;
@@ -99,9 +106,15 @@ body{
   transform: translate(-50%, -50%);
   max-width: 100%;
   max-height: 100%;
+  margin-top: 50px;
 }
 .footer{
+    font-size: 50px;
+    margin-top: 90px;
     background-color: dimgrey;
     padding: 30px;
     text-align: center;
+    /* background:linear-gradient(to right,#333,#ff0000) ;
+    -webkit-background-clip: text;
+    color: transparent; */
 }
